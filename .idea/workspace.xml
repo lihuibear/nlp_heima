@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add: word embedding">
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/cn_data/SimHei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/cn_data/dev.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/cn_data/train.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/demo02.py" afterDir="false" />
+    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能">
+      <change afterPath="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lihuibear"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lihuibear&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lihuibear/nlp_heima.git",
-    "accountId": "f076a9fd-e800-46d1-bba3-a728740d205c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lihuibear/nlp_heima.git&quot;,
+    &quot;accountId&quot;: &quot;f076a9fd-e800-46d1-bba3-a728740d205c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -48,24 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.demo01.executor": "Run",
-    "Python.demo02.executor": "Run",
-    "Python.text_tensor_demo1.executor": "Run",
-    "Python.text_tensor_demo2.executor": "Run",
-    "Python.text_tensor_demo3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/code/study/nlp/Text_data_analysis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.demo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo04_wordcloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_tensor_demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_tensor_demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_tensor_demo3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/study/nlp/Text_data_analysis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\study\nlp\Text_data_analysis" />
@@ -78,7 +76,7 @@
       <recent name="D:\code\study\nlp\Text_tensor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo03_vocabs">
+  <component name="RunManager" selected="Python.demo04_wordcloud">
     <configuration name="demo01_labels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
@@ -148,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_tensor_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo04_wordcloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,12 +155,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_tensor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_data_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_tensor/text_tensor_demo2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo04_wordcloud" />
         <item itemvalue="Python.demo03_vocabs" />
         <item itemvalue="Python.demo02_hength" />
         <item itemvalue="Python.demo01_labels" />
         <item itemvalue="Python.text_tensor_demo3" />
-        <item itemvalue="Python.text_tensor_demo2" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +219,8 @@
       <option name="presentableId" value="Default" />
       <updated>1768017301447</updated>
       <workItem from="1768017302725" duration="227000" />
-      <workItem from="1768017542472" duration="20855000" />
+      <workItem from="1768017542472" duration="22541000" />
+      <workItem from="1768281292517" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="add:">
       <option name="closed" value="true" />
@@ -255,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768206335479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能">
+      <option name="closed" value="true" />
+      <created>1768219737044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768219737044</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,10 +296,13 @@
     <MESSAGE value="add: jieba" />
     <MESSAGE value="add: onehot and word2vec" />
     <MESSAGE value="add: word embedding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: word embedding" />
+    <MESSAGE value="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo1.coverage" NAME="text_tensor_demo1 覆盖结果" MODIFIED="1768023405716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
+    <SUITE FILE_PATH="coverage/nlp$demo04_wordcloud.coverage" NAME="demo04_wordcloud 覆盖结果" MODIFIED="1768219860799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
+    <SUITE FILE_PATH="coverage/nlp$demo03.coverage" NAME="demo03 覆盖结果" MODIFIED="1768219509793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo2.coverage" NAME="text_tensor_demo2 覆盖结果" MODIFIED="1768039655446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
     <SUITE FILE_PATH="coverage/nlp$demo01.coverage" NAME="demo01 覆盖结果" MODIFIED="1768211813804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$demo02.coverage" NAME="demo02 覆盖结果" MODIFIED="1768219435121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
