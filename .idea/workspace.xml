@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能">
-      <change afterPath="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" afterDir="false" />
+    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add: 词云">
+      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/SimHei.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/demo01_ngram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/demo01_rnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/SimHei.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/SimHei.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/dev.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/dev.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/train.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/train.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo01_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo01_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo02_hength.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo02_hength.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo03_vocabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo03_vocabs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo04_wordcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_tensor/wikifil.pl" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/wikifil.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_jieba/userdict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/userdict.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +68,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.demo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo01_ngram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo01_rnn.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo02.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo03.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo04_wordcloud.executor&quot;: &quot;Run&quot;,
@@ -55,17 +78,19 @@
     &quot;Python.text_tensor_demo3.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/study/nlp/Text_data_analysis&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my/idea-rainbow-fart-1.0.6.zip&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.izhangzhihao.rainbow.fart.settings.RainbowFartConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\study\nlp\04_Text_feature_processing" />
       <recent name="D:\code\study\nlp\Text_data_analysis" />
       <recent name="D:\code\study\nlp\Text_data_analysis\cn_data" />
       <recent name="D:\code\study\nlp\Text_tensor" />
@@ -76,8 +101,8 @@
       <recent name="D:\code\study\nlp\Text_tensor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo04_wordcloud">
-    <configuration name="demo01_labels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.demo01_rnn">
+    <configuration name="demo01_ngram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,12 +111,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_data_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Text_feature_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\study\nlp\Text_data_analysis\demo01_labels.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Text_feature_processing/demo01_ngram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo01_rnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nlp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_RNN/demo01_rnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,36 +217,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_tensor_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nlp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_tensor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_tensor/text_tensor_demo3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo01_rnn" />
+        <item itemvalue="Python.demo01_ngram" />
         <item itemvalue="Python.demo04_wordcloud" />
         <item itemvalue="Python.demo03_vocabs" />
         <item itemvalue="Python.demo02_hength" />
-        <item itemvalue="Python.demo01_labels" />
-        <item itemvalue="Python.text_tensor_demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +245,17 @@
       <updated>1768017301447</updated>
       <workItem from="1768017302725" duration="227000" />
       <workItem from="1768017542472" duration="22541000" />
-      <workItem from="1768281292517" duration="701000" />
+      <workItem from="1768281292517" duration="3717000" />
+      <workItem from="1768287866957" duration="9760000" />
+      <workItem from="1768369281190" duration="645000" />
+      <workItem from="1768369937869" duration="676000" />
+      <workItem from="1768370640114" duration="42000" />
+      <workItem from="1768370687097" duration="68000" />
+      <workItem from="1768370762209" duration="87000" />
+      <workItem from="1768370855372" duration="157000" />
+      <workItem from="1768371019716" duration="135000" />
+      <workItem from="1768371160216" duration="23000" />
+      <workItem from="1768371188798" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="add:">
       <option name="closed" value="true" />
@@ -262,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768219737044</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add: 词云">
+      <option name="closed" value="true" />
+      <created>1768283870632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768283870632</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,11 +340,14 @@
     <MESSAGE value="add: onehot and word2vec" />
     <MESSAGE value="add: word embedding" />
     <MESSAGE value="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能" />
+    <MESSAGE value="add: 词云" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 词云" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo1.coverage" NAME="text_tensor_demo1 覆盖结果" MODIFIED="1768023405716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
-    <SUITE FILE_PATH="coverage/nlp$demo04_wordcloud.coverage" NAME="demo04_wordcloud 覆盖结果" MODIFIED="1768219860799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
+    <SUITE FILE_PATH="coverage/nlp$demo01_rnn.coverage" NAME="demo01_rnn 覆盖结果" MODIFIED="1768361692324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
+    <SUITE FILE_PATH="coverage/nlp$demo01_ngram.coverage" NAME="demo01_ngram 覆盖结果" MODIFIED="1768294330182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Text_feature_processing" />
+    <SUITE FILE_PATH="coverage/nlp$demo04_wordcloud.coverage" NAME="demo04_wordcloud 覆盖结果" MODIFIED="1768282080996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$demo03.coverage" NAME="demo03 覆盖结果" MODIFIED="1768219509793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo2.coverage" NAME="text_tensor_demo2 覆盖结果" MODIFIED="1768039655446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
     <SUITE FILE_PATH="coverage/nlp$demo01.coverage" NAME="demo01 覆盖结果" MODIFIED="1768211813804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
