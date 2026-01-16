@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add: 词云">
-      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/SimHei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/dev.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/cn_data/train.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Text_feature_processing/demo01_ngram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/demo01_rnn.py" afterDir="false" />
+    <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add: RNN及其变体结合onehot实现人名与国家的分类（18分类）+ 之前的一些模型与数据">
+      <change afterPath="$PROJECT_DIR$/01_Text_tensor/mytokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/data/name_classfication.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/demo02_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/demo03_GRU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/rnn_classfication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_gru_1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_lstm_1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_rnn_1.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/SimHei.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/SimHei.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/dev.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/dev.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/cn_data/train.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/cn_data/train.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo01_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo01_labels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo02_hength.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo02_hength.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo03_vocabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo03_vocabs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Text_data_analysis/demo04_wordcloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_tensor/text_tensor_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text_tensor/wikifil.pl" beforeDir="false" afterPath="$PROJECT_DIR$/01_Text_tensor/wikifil.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/jiebademo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/jiebademo5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_jieba/userdict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_nlp_jieba/userdict.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,43 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo01_ngram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo01_rnn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo04_wordcloud.executor&quot;: &quot;Run&quot;,
-    &quot;Python.text_tensor_demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.text_tensor_demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.text_tensor_demo3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my/idea-rainbow-fart-1.0.6.zip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.izhangzhihao.rainbow.fart.settings.RainbowFartConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.demo01.executor": "Run",
+    "Python.demo01_ngram.executor": "Run",
+    "Python.demo01_rnn.executor": "Run",
+    "Python.demo02.executor": "Run",
+    "Python.demo03.executor": "Run",
+    "Python.demo04_wordcloud.executor": "Run",
+    "Python.rnn_classfication.executor": "Run",
+    "Python.text_tensor_demo1.executor": "Run",
+    "Python.text_tensor_demo2.executor": "Run",
+    "Python.text_tensor_demo3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/code/study/nlp/05_RNN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.izhangzhihao.rainbow.fart.settings.RainbowFartConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\study\nlp\05_RNN" />
       <recent name="D:\code\study\nlp\04_Text_feature_processing" />
       <recent name="D:\code\study\nlp\Text_data_analysis" />
       <recent name="D:\code\study\nlp\Text_data_analysis\cn_data" />
       <recent name="D:\code\study\nlp\Text_tensor" />
-      <recent name="D:\code\study\nlp\Text_tensor\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\study\nlp\Text_data_analysis\cn_data" />
       <recent name="D:\code\study\nlp\Text_tensor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo01_rnn">
+  <component name="RunManager" selected="Python.rnn_classfication">
     <configuration name="demo01_ngram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
@@ -140,29 +127,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_RNN/demo01_rnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo02_hength" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nlp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_data_analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\study\nlp\Text_data_analysis\demo02_hength.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,13 +181,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rnn_classfication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nlp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_RNN/rnn_classfication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rnn_classfication" />
         <item itemvalue="Python.demo01_rnn" />
         <item itemvalue="Python.demo01_ngram" />
         <item itemvalue="Python.demo04_wordcloud" />
         <item itemvalue="Python.demo03_vocabs" />
-        <item itemvalue="Python.demo02_hength" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +242,8 @@
       <workItem from="1768370855372" duration="157000" />
       <workItem from="1768371019716" duration="135000" />
       <workItem from="1768371160216" duration="23000" />
-      <workItem from="1768371188798" duration="2397000" />
+      <workItem from="1768371188798" duration="5414000" />
+      <workItem from="1768456121591" duration="8624000" />
     </task>
     <task id="LOCAL-00001" summary="add:">
       <option name="closed" value="true" />
@@ -305,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768283870632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: 文本特征处理和RNN">
+      <option name="closed" value="true" />
+      <created>1768385496740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768385496740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,12 +337,26 @@
     <MESSAGE value="add: word embedding" />
     <MESSAGE value="add:&#10;- 新增demo01_labels.py实现标签分布可视化功能&#10;- 新增demo02_hength.py实现句子长度分布分析功能  &#10;- 新增demo03_vocabs.py实现词汇表大小统计功能" />
     <MESSAGE value="add: 词云" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 词云" />
+    <MESSAGE value="add: 文本特征处理和RNN" />
+    <MESSAGE value="add: RNN及其变体结合onehot实现人名与国家的分类（18分类）+ 之前的一些模型与数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: RNN及其变体结合onehot实现人名与国家的分类（18分类）+ 之前的一些模型与数据" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/05_RNN/rnn_classfication.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo1.coverage" NAME="text_tensor_demo1 覆盖结果" MODIFIED="1768023405716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
     <SUITE FILE_PATH="coverage/nlp$demo01_rnn.coverage" NAME="demo01_rnn 覆盖结果" MODIFIED="1768361692324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
     <SUITE FILE_PATH="coverage/nlp$demo01_ngram.coverage" NAME="demo01_ngram 覆盖结果" MODIFIED="1768294330182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Text_feature_processing" />
+    <SUITE FILE_PATH="coverage/nlp$rnn_classfication.coverage" NAME="rnn_classfication 覆盖结果" MODIFIED="1768551628995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
     <SUITE FILE_PATH="coverage/nlp$demo04_wordcloud.coverage" NAME="demo04_wordcloud 覆盖结果" MODIFIED="1768282080996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$demo03.coverage" NAME="demo03 覆盖结果" MODIFIED="1768219509793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$text_tensor_demo2.coverage" NAME="text_tensor_demo2 覆盖结果" MODIFIED="1768039655446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
