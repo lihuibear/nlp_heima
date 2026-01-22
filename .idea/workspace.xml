@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc8b6eb-062e-4fc9-addd-41813f25bc5f" name="更改" comment="add: RNN及其变体结合onehot实现人名与国家的分类（18分类）+ 之前的一些模型与数据">
-      <change afterPath="$PROJECT_DIR$/01_Text_tensor/mytokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/data/name_classfication.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/demo02_LSTM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/demo03_GRU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/rnn_classfication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_gru_1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_lstm_1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_RNN/save_model/ai23_rnn_1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Text_tensor/data/enwik9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Text_tensor/data/fil9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Text_tensor/data/fil9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Text_tensor/data/fil9_cbow.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Text_tensor/mytokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/data/eng-fra-v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/dm01_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_RNN/dm02_seq2seq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Text_tensor/text_tensor_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Text_tensor/text_tensor_demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Text_tensor/text_tensor_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Text_tensor/text_tensor_demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Text_tensor/wikifil.pl" beforeDir="false" afterPath="$PROJECT_DIR$/02_Text_tensor/wikifil.pl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +58,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.demo.executor": "Run",
     "Python.demo01.executor": "Run",
     "Python.demo01_ngram.executor": "Run",
     "Python.demo01_rnn.executor": "Run",
     "Python.demo02.executor": "Run",
     "Python.demo03.executor": "Run",
     "Python.demo04_wordcloud.executor": "Run",
+    "Python.dm02_seq2seq.executor": "Run",
     "Python.rnn_classfication.executor": "Run",
     "Python.text_tensor_demo1.executor": "Run",
     "Python.text_tensor_demo2.executor": "Run",
     "Python.text_tensor_demo3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/code/study/nlp/05_RNN",
+    "last_opened_file_path": "D:/code/study/nlp/05_RNN/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,18 +84,41 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\study\nlp\05_RNN\data" />
       <recent name="D:\code\study\nlp\05_RNN" />
       <recent name="D:\code\study\nlp\04_Text_feature_processing" />
       <recent name="D:\code\study\nlp\Text_data_analysis" />
       <recent name="D:\code\study\nlp\Text_data_analysis\cn_data" />
-      <recent name="D:\code\study\nlp\Text_tensor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\study\nlp\Text_data_analysis\cn_data" />
       <recent name="D:\code\study\nlp\Text_tensor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rnn_classfication">
+  <component name="RunManager" selected="Python.dm02_seq2seq">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nlp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_RNN/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo01_ngram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
@@ -135,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo03_vocabs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dm02_seq2seq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,35 +174,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_data_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_RNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\study\nlp\Text_data_analysis\demo03_vocabs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo04_wordcloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nlp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_data_analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_data_analysis/demo04_wordcloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_RNN/dm02_seq2seq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dm02_seq2seq" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.rnn_classfication" />
         <item itemvalue="Python.demo01_rnn" />
         <item itemvalue="Python.demo01_ngram" />
-        <item itemvalue="Python.demo04_wordcloud" />
-        <item itemvalue="Python.demo03_vocabs" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +250,8 @@
       <workItem from="1768371019716" duration="135000" />
       <workItem from="1768371160216" duration="23000" />
       <workItem from="1768371188798" duration="5414000" />
-      <workItem from="1768456121591" duration="8624000" />
+      <workItem from="1768456121591" duration="18168000" />
+      <workItem from="1769053427428" duration="7243000" />
     </task>
     <task id="LOCAL-00001" summary="add:">
       <option name="closed" value="true" />
@@ -301,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768385496740</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add: RNN及其变体结合onehot实现人名与国家的分类（18分类）+ 之前的一些模型与数据">
+      <option name="closed" value="true" />
+      <created>1768553964593</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768553964593</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,15 +369,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo1.coverage" NAME="text_tensor_demo1 覆盖结果" MODIFIED="1768023405716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
     <SUITE FILE_PATH="coverage/nlp$demo01_rnn.coverage" NAME="demo01_rnn 覆盖结果" MODIFIED="1768361692324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
+    <SUITE FILE_PATH="coverage/nlp$dm02_seq2seq.coverage" NAME="dm02_seq2seq 覆盖结果" MODIFIED="1769067549305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
+    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo2.coverage" NAME="text_tensor_demo2 覆盖结果" MODIFIED="1768039655446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
+    <SUITE FILE_PATH="coverage/nlp$demo01.coverage" NAME="demo01 覆盖结果" MODIFIED="1768211813804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
+    <SUITE FILE_PATH="coverage/nlp$demo02.coverage" NAME="demo02 覆盖结果" MODIFIED="1768219435121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
+    <SUITE FILE_PATH="coverage/nlp$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1769059995957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
+    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo3.coverage" NAME="text_tensor_demo3 覆盖结果" MODIFIED="1768205096690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
+    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo1.coverage" NAME="text_tensor_demo1 覆盖结果" MODIFIED="1768023405716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
     <SUITE FILE_PATH="coverage/nlp$demo01_ngram.coverage" NAME="demo01_ngram 覆盖结果" MODIFIED="1768294330182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Text_feature_processing" />
     <SUITE FILE_PATH="coverage/nlp$rnn_classfication.coverage" NAME="rnn_classfication 覆盖结果" MODIFIED="1768551628995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_RNN" />
     <SUITE FILE_PATH="coverage/nlp$demo04_wordcloud.coverage" NAME="demo04_wordcloud 覆盖结果" MODIFIED="1768282080996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
     <SUITE FILE_PATH="coverage/nlp$demo03.coverage" NAME="demo03 覆盖结果" MODIFIED="1768219509793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
-    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo2.coverage" NAME="text_tensor_demo2 覆盖结果" MODIFIED="1768039655446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
-    <SUITE FILE_PATH="coverage/nlp$demo01.coverage" NAME="demo01 覆盖结果" MODIFIED="1768211813804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
-    <SUITE FILE_PATH="coverage/nlp$demo02.coverage" NAME="demo02 覆盖结果" MODIFIED="1768219435121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_data_analysis" />
-    <SUITE FILE_PATH="coverage/nlp$text_tensor_demo3.coverage" NAME="text_tensor_demo3 覆盖结果" MODIFIED="1768205096690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_tensor" />
   </component>
 </project>
